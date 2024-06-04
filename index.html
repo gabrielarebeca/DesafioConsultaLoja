@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="header">
+    <h1>Consultar Valor</h1>
+    <nav> 
+        <ul>
+            <li>1- Notebook</li>
+            <li>2- Camera</li>
+            <li>3- Mouse</li>
+            <li>4- Teclado</li>
+        </ul>
+    </nav>
+    <button class="botao" type="button" onclick="valorItem()">Clique para selecionar</button>
+    <div class="resultado" id="itemSelecionado"></div>
+    <script>
+        function valorItem() {
+        let item = prompt ("Informe o id do item");
+        let itemSelecionado = document.getElementById ("itemSelecionado");
+        switch (item) {
+            case "1":
+                itemSelecionado.textContent = "O valor do Notebook é 2.000$";
+                break
+            case "2":
+                itemSelecionado.textContent = "O valor da Camera é 500$";
+                break
+            case "3":
+                itemSelecionado.textContent = "O valor do Mouse é 60$";
+                break
+            case "4":
+                itemSelecionado.textContent = "O valor do Teclado é 100$";
+                break
+            default:
+                itemSelecionado.textContent = "Insira um item válido";
+                break
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(47, 47, 49);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(174, 177, 180);
+    width: 30%;
+}
+
+h1, li {
+    color:rgb(174, 177, 180);
+}
+
+.botao {
+    background-color: rgb(174, 177, 180);
+    color:rgb(47, 47, 49);
+}
+
+.resultado {
+    margin: 10px;
+    color: rgb(174, 177, 180);
+}
