@@ -17,3 +17,7 @@ O projeto foi desenvolvido com o intuito de criar um sistema simples de **consul
 - **HTML5**
 - **CSS3** (para o layout)
 - **JavaScript** (para a interação e lógica de busca)
+
+## 🖼️ Veja no Navegador
+
+https://gabrielarebeca.github.io/DesafioConsultaLoja/
